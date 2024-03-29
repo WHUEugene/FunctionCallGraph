@@ -19,7 +19,11 @@ python function_call_graph.py -d /path/to/your/project
 
 如果不指定 `-d` 参数，脚本将分析当前目录。
 
-3. 脚本将生成一个函数调用图，并保存为PNG格式的图片。图片的名字将是主函数的名字和主函数所在的文件名。同时，脚本还会生成一个Markdown文件，其中包含了函数调用的详细信息。
+
+3. 脚本将生成一个函数调用图，并保存为PNG格式的图片。图片的名字将是主函数的名字和主函数所在的文件名。同时，脚本还会生成一个Markdown文件，其中包含了函数调用的详细信息。生成的图和Markdown文件保存到被分析的目录的 FunctionCallGraph 子目录中。![train py_training_report_FunctionCallGraph](https://github.com/1738970143/FunctionCallGraph/assets/90264219/e46a1624-1023-4c21-a65c-22f695595d17)
+
+4. 推荐使用boardmix来通过md文件生成可以修改拖拽编辑的思维导图 https://boardmix.cn/app/home
+<img width="1102" alt="image" src="https://github.com/1738970143/FunctionCallGraph/assets/90264219/f6fc4821-735d-4387-adc0-feff56ec1f09">
 
 ## 工作原理
 
