@@ -14,7 +14,7 @@
 2. 运行脚本，并使用 `-d` 参数指定要分析的目录。例如：
 
 ```
-python function_call_graph.py -d /path/to/your/project
+python makeimgbymyself2.py -d /path/to/your/project
 ```
 
 如果不指定 `-d` 参数，脚本将分析当前目录。
